@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended+Text|Press+Start+2P|Russo+One");
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Russo One', sans-serif;
+}
+
+header {
+    display: flex;
+    background-image: url("img/vaporwave-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    align-items: center;
+    
+}
+
+header h1 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    margin-top: -400px;
+    margin-left: +100px;
+}
+
+header h2 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    margin-top: +400px;
+    margin-left: -600px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: pink;
+    
+}
+
+a:hover {
+    color: black;
+
+}
+
+.summary {
+    text-align: center;
+    margin-top: +20px;
+}
+
+.preamble {
+    text-align: left;
+    font-size: 17px;
+}
+
+.preamble h3 {
+    text-align: center;
+    margin: +40px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.preamble h3:hover {
+    color: pink;
+    font-size: 25px;
+}
+
+.explanation {
+    color: white;
+    background-color: pink;
+    text-align: left;
+    font-size: 17px;
+
+}
+
+.explanation h3 {
+    text-align: center;
+    margin: +40px;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-size: 30px;
+}
+
+.explanation h3:hover {
+    color: black;
+    font-size: 35px;
+}
+
+.participation {
+    text-align: left;
+    font-size: 17px;
+}
+
+.participation h3 {
+    text-align: center;
+    margin: +40px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.participation h3:hover {
+    color: pink;
+    font-size: 25px;
+}
+
+.benefits {
+    color: white;
+    background-color: pink;
+    text-align: left;
+    font-size: 17px;
+
+}
+
+.benefits h3 {
+    text-align: center;
+    margin: +40px;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-size: 35px;
+}
+
+.benefits h3:hover {
+    color: black;
+    font-size: 40px;
+}
+
+.requirements {
+
+    text-align: left;
+    font-size: 17px;
+}
+
+.requirements h3 {
+    text-align: center;
+    margin: +40px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.requirements h3:hover {
+    color: pink;
+    font-size: 25px;
+}
+
+
+footer {
+    margin: +60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    color: pink;
+    font-weight: bold;
+}
+
+
+
+aside {
+    font-size: 10px;
+    border: 4px solid pink;
+}
+
+aside a {
+    font-size: 20px;
+}
+
+
+.zen-resources,
+.design-selection,
+.design-archives {
+    float: left;
+    margin: +20px;
+}
+
+@media (max-width: 720px) {
+    header {
+        height: 200px;
+    }
+
+header h1 {
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: +5px;
+}
+
+header h2 {
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+    margin-top: +20px;
+    margin-left: -100px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: pink;
+}    
+ 
+.summary {
+    text-align: left;
+    margin-top: +5px;
+}
+
+.preamble h3 {
+    text-align: center;
+    margin: +4px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.preamble h3:hover {
+    color: pink;
+    font-size: 20px;
+}
+
+.explanation h3 {
+    text-align: left;
+    margin: +4px;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-size: 20px;
+}
+
+.explanation h3:hover {
+    color: black;
+    font-size: 22px;
+}
+
+.participation h3 {
+    text-align: center;
+    margin: +4px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.participation h3:hover {
+    color: pink;
+    font-size: 20px;
+}
+
+.benefits h3 {
+    text-align: left;
+    margin: +4px;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-size: 20px;
+}
+
+.benefits h3:hover {
+    color: black;
+    font-size: 24px;
+}
+
+.requirements h3 {
+    text-align: center;
+    margin: +4px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.requirements h3:hover {
+    color: pink;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
